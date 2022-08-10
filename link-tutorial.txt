@@ -1,0 +1,9 @@
+php artisan vendor:publish --provider="Spatie\Activitylog\ActivitylogServiceProvider" --tag="migrations"
+php artisan migrate
+php artisan vendor:publish --provider="Spatie\Activitylog\ActivitylogServiceProvider" --tag="config"
+
+link tutorial
+https://www.itsolutionstuff.com/post/custom-user-log-activity-in-laravel-5-app-exampleexample.html
+
+login
+https://tugasakhir.id/register-login-password-logout-laravel/
